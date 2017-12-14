@@ -1,0 +1,89 @@
+@import "bootstrap-sprockets";
+@import "bootstrap-custom";
+
+p{text-align:center;}
+
+.titlelogo{
+  margin-left: auto;
+  margin-right: auto;
+}
+ .navbar.navbar-light{
+   height: 45px;
+ }
+ .col-md{
+   font-size: 20px;
+   font-family: "Abel";
+ }
+ .contentcontainer{
+   margin-left: auto;
+   margin-right: auto;
+   width: 1200px;
+ }
+
+
+.container{
+}
+
+.twiceVideo{
+  margin-right: auto;//ここで中央寄せを指定する。
+    margin-left : auto;
+}
+
+.wholeContainer{
+  display: flex;
+  width: 100%;
+}
+
+.membersContainer{
+  width:600px;
+    margin: 0 auto;
+}
+
+.membersTop{
+  display: flex;
+}
+.membersMiddle{
+  display: flex;
+}
+.membersBottom{
+  display: flex;
+}
+.field{
+  text-align: center;
+}
+
+.Jeongyeon{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Jihyo{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Chaeyoung{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchImage{
+  font-size: 30px;
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #FFC0CB;
+}
+
+.imagecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+.imagecontainer img{
+  max-width:100%;
+  max-height:100%;
+}

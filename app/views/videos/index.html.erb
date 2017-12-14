@@ -1,0 +1,12 @@
+<ul>
+<% randomVideos = @videos.shuffle %>
+<% 4.times do |i|
+  randomVideo = randomVideos[i]%>
+<% youtubeurl = "http://www.youtube.com/embed/" %>
+<iframe width = 560, height = 315
+ src = <%= "#{youtubeurl + randomVideo.snippet.resource_id.video_id}?showinfo=0&rel=0&modestbranding=1" %> allowfullscreen
+ class: "twiceVideo">
+</iframe>
+<% end %>
+
+<ul>

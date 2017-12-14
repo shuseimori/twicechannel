@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <p><%= image_tag "DesignEvo-Transparent.png", class:"titlelogo"%><p>
+    <title>Twicetube</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+<nav class="navbar navbar-light" style="background-color:#FFC0CB">
+<div class = "container">
+  <div class = "row">
+      <div class="col-md">
+        <%= link_to "TwiceTube", videos_path, :style=>"color:black"%>
+            </div>
+      <div class="col-md">
+        <%= link_to "Twicetagram", members_path, :style=>"color:black"%>
+      </div>
+    </div>
+</div>
+</nav>
+
+  </head>
+
+  <body>
+  <div class = "contentcontainer">
+  <%= yield %>
+  <div>
+  </body>
+  <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+</html>
